@@ -1,0 +1,21 @@
+{
+  "MAE": 106.56482954254916,
+  "MSE": 30126.763854822682,
+  "RMSE": 173.57063073810235,
+  "R2": -0.057809589536286454,
+  "rows": 4675,
+  "features": [
+    "İLÇE",
+    "KESİNTİ NEDENİ",
+    "KESİNTİ SÜRESİ (DK)",
+    "Sıcaklık (°C)"
+  ],
+  "target": "ETKİLENEN ABONE SAYISI",
+  "train_size": 0.9,
+  "test_size": 0.1,
+  "random_state": 42,
+  "model": "RandomForestRegressor + log1p target transform",
+  "split": "90% eğitim / 10% test",
+  "n_train": 4207,
+  "n_test": 468
+}
